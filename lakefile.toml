@@ -1,0 +1,14 @@
+name = "preCFSG"
+version = "0.1.0"
+defaultTargets = ["precfsg"]
+
+[[lean_lib]]
+name = "PreCFSG"
+
+[[lean_exe]]
+name = "precfsg"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
